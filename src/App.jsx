@@ -1,10 +1,11 @@
+import React from 'react'
+
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<home />} />
-      <Route path="/books" element={<BookList />} />
-    </Routes>
-  );
-};
+    <div>
+      
+    </div>
+  )
+}
 
-export default App;
+export default App
