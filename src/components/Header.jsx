@@ -5,7 +5,7 @@ const Header = () => {
     <div className='bg-[#5964E0] h-32 flex justify-between items-center'>
         <div><span className='text-white text-[30px] font-bold m-10 '>devjobs</span></div>
         <div>
-             <p>light and dark mode</p>
+             <p className='font-bold m-10 '>light and dark mode</p>
         </div>
 
     </div>
@@ -13,3 +13,18 @@ const Header = () => {
 }
 
 export default Header
+
+
+{/* <div className="bg-[url('src\assets\images\bg-pattern-header.svg')]">
+<div><span className='text-white text-[30px] font-bold m-10 '>devjobs</span></div>
+<div>
+     <p className='font-bold m-10 '>light and dark mode</p>
+
+
+      h-32 flex justify-between items-center
+
+
+</div>
+
+
+</div> */}
