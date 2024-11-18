@@ -7,11 +7,21 @@ const Search = () => {
         <input
           type="text"
           placeholder="Filter by title,companies,..."
-          className="w-full h-[100%] rounded-md m-5"
+          className="w-full h-[100%] rounded-md m-5 border-none outline-none"
+          
         />
 
-        <p>sfsadf</p>
-        <p>sfsadf</p>
+<select>
+<option >Other option</option>
+  <option >Some option</option>
+  
+</select>
+        
+
+        <button>Search</button>
+        
+
+
       </div>
     </div>
   );
