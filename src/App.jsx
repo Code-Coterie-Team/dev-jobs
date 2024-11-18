@@ -68,12 +68,21 @@ function Menu() {
         Location="United Kingdom"
       />
 
-     
+      <Company
+        Datasend="20h ago . Part Time"
+        NameJob="Haskell and PureScript Dev"
+        photoName="src\assets\images\scoot.svg"
+        NameCompany="Bloger"
+        Location="United States"
+      />
 
-      
-      
-
- 
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src\assets\images\scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
     </div>
   );
 }
