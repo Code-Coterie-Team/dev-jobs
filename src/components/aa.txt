@@ -1,0 +1,32 @@
+import React from 'react';
+
+// داده های نمونه شما
+const drugs = [
+  { id: 1, name: 'دارو ۱', image: 'link_to_image_1' },
+  { id: 2, name: 'دارو ۲', image: 'link_to_image_2' },
+  { id: 3, name: 'دارو ۳', image: 'link_to_image_3' },
+  // ... سایر داروها
+];
+
+// کامپوننت کارت دارو
+const DrugCard = ({ drug }) => {
+  return (
+    <div className="drug-card">
+      <img src={drug.image} alt={drug.name} />
+      <h2>{drug.name}</h2>
+    </div>
+  );
+};
+
+// کامپوننت اصلی
+const DrugList = () => {
+  return (
+    <div className="drug-list">
+      {drugs.map(drug => (
+        <DrugCard key={drug.id} drug={drug} />
+      ))}
+    </div>
+  );
+};
+
+export default DrugList;

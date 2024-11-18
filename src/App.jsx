@@ -4,6 +4,8 @@ import Search from "./components/Search";
 
 const App = () => {
   return (
+
+ 
     <div className="bg-[#F2F2F2]">
       <div>
         <Header />
