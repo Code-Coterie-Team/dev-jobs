@@ -47,7 +47,7 @@ const pizzaData = [
 
 const App = () => {
   return (
-    <div className="bg-[#F2F2F2]">
+    <div>
       <div>
         <Header />
         <Search />
@@ -59,30 +59,21 @@ const App = () => {
 
 function Menu() {
   return (
-    <div className="flex justify-around">
+    <div className="flex justify-around flex-wrap">
       <Company
-        name="Vegetarian Pizza"
+        Datasend="5h ago . Full Time"
+        NameJob="Senior Software Engineer"
         photoName="src\assets\images\scoot.svg"
-        price="10$"
+        NameCompany="Scoot"
+        Location="United Kingdom"
       />
 
-      <Company
-        name="Italian Pizza"
-        photoName="src\assets\images\pomodoro.svg"
-        price="15$"
-      />
+     
 
-      <Company
-        name="Italian Pizza"
-        photoName="src\assets\images\pomodoro.svg"
-        price="15$"
-      />
+      
+      
 
-      <Company
-        name="Italian Pizza"
-        photoName="src\assets\images\pomodoro.svg"
-        price="15$"
-      />
+ 
     </div>
   );
 }
@@ -90,13 +81,14 @@ function Menu() {
 function Company(props) {
   return (
     <div>
-      <h2>{props.Name}</h2>
       <img
         src={props.photoName}
-        alt={props.Name}
-        className="w-[50px] h-[50px] bg-red-600 flex-wrap"
+        className="w-[50px] h-[50px] bg-orange-600 rounded-lg"
       />
-      <p>Price: {props.price}</p>
+      <span>{props.Datasend}</span>
+      <p>{props.NameJob}</p>
+      <span>{props.NameCompany}</span>
+      <p>{props.Location}</p>
     </div>
   );
 }
