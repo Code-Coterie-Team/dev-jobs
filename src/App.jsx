@@ -107,13 +107,64 @@ function Menu() {
         NameCompany="Vector"
         Location="Russia"
       />
+
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+
+   
     </div>
   );
 }
 
 function Company(props) {
   return (
-    <div className="w-full sm:w-1/2 md:w-1/3 p-4 flex flex-col items-center border border-white rounded-lg bg-gray-800">
+   
+    <div className="w-full sm:w-1/2 md:w-1/4 p-2 m-3 flex flex-col items-center border border-white rounded-lg bg-gray-800">
       <img
         src={props.photoName}
         className="w-[50px] h-[50px] bg-orange-600 rounded-lg"
