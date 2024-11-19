@@ -57,13 +57,14 @@ const App = () => {
   );
 };
 
+
 function Menu() {
   return (
-    <div className="flex justify-around flex-wrap">
+    <div className="flex justify-center flex-wrap">
       <Company
         Datasend="5h ago . Full Time"
         NameJob="Senior Software Engineer"
-        photoName="src\assets\images\scoot.svg"
+        photoName="src/assets/images/scoot.svg"
         NameCompany="Scoot"
         Location="United Kingdom"
       />
@@ -71,7 +72,7 @@ function Menu() {
       <Company
         Datasend="20h ago . Part Time"
         NameJob="Haskell and PureScript Dev"
-        photoName="src\assets\images\scoot.svg"
+        photoName="src/assets/images/scoot.svg"
         NameCompany="Bloger"
         Location="United States"
       />
@@ -79,17 +80,42 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src\assets\images\scoot.svg"
+        photoName="src/assets/images/scoot.svg"
         NameCompany="Vector"
         Location="Russia"
       />
+
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+
+      <Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+
+<Company
+        Datasend="1d ago . Part Time"
+        NameJob="Midlevel Back End Enginner"
+        photoName="src/assets/images/scoot.svg"
+        NameCompany="Vector"
+        Location="Russia"
+      />
+      
     </div>
   );
 }
 
 function Company(props) {
   return (
-    <div>
+    <div className="w-full sm:w-1/2 md:w-1/3 p-4 flex flex-col items-center">
       <img
         src={props.photoName}
         className="w-[50px] h-[50px] bg-orange-600 rounded-lg"
