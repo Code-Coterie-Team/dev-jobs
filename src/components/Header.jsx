@@ -9,11 +9,11 @@ const ThemeToggleButton = () => {
     <div className="h-32 flex justify-between items-center relative">
       <img className="w-full h-full border rounded-bl-full" src={patternSvg} alt="Background Pattern" />
       <div className="absolute left-0 right-0 flex justify-between items-center px-10">
-        <span className="text-[30px] font-bold">devjobs</span>
-        <div className="flex">
-        <img src={mySvg} alt="Sun" className="h-5 w-5 filter brightness-0 invert" /> {/* تغییر رنگ به سفید */}
-        <img src={chang} alt="Sun" className="h-5 w-5 filter brightness-0 invert" /> 
-        <img src={halfmoon} alt="Moon" className="h-5 w-5 filter brightness-0 invert" /> {/* اضافه کردن کلاس اندازه به تصویر ماه */}
+        <span className="text-[30px] font-bold mr-2">devjobs</span> {/* اضافه کردن margin راست برای متن */}
+        <div className="flex space-x-2"> {/* افزودن فضای بین آیکون‌ها */}
+          <img src={mySvg} alt="Sun" className="h-5 w-5 filter brightness-0 invert" /> {/* تغییر رنگ به سفید */}
+          <img src={chang} alt="Menu" className="h-5 w-5 filter brightness-0 invert" /> 
+          <img src={halfmoon} alt="Moon" className="h-5 w-5 filter brightness-0 invert" /> {/* اضافه کردن کلاس اندازه به تصویر ماه */}
         </div>
       </div>
     </div>
