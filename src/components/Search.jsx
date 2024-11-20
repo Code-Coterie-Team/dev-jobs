@@ -21,7 +21,9 @@ const Search = () => {
 
         <div className="flex justify-around items-center">
           <img src={location} alt="location" className="h-8 w-9" />
-          <select className="basis-1/4 border-r-2 border-[#E2E6EA] text-gray-600"> {/* تغییر رنگ متن در انتخاب */}
+          <select className="basis-1/4 border-r-2 border-[#E2E6EA] text-gray-600">
+            {" "}
+            {/* تغییر رنگ متن در انتخاب */}
             <option>Filter By Location</option>
             <option>Germany</option>
             <option>Japan</option>
@@ -32,7 +34,26 @@ const Search = () => {
           </select>
         </div>
 
-        <button className="basis-1/4 text-gray-600 hover:text-gray-800">Search</button> {/* تغییر رنگ متن در دکمه */}
+        <div class="flex">
+          <div class="flex items-center justify-between">
+            <input
+              id="helper-checkbox"
+              aria-describedby="helper-checkbox-text"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            ></input>
+          </div>
+          <div class="ms-8 text-sm">
+            <label for="helper-checkbox" class="font-bold text-gray-900 flex">
+              Full Time Only
+            </label>
+          </div>
+
+          <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            Button
+          </button>
+        </div>
       </div>
     </div>
   );
