@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Search from "./components/Search";
-import Search from "../src/components/Btn";
+import Btn from "./components/Btn";
 import './index.css';
 const pizzaData = [
   {
@@ -54,6 +54,7 @@ const App = () => {
         <Search />
         <Menu />
         <Btn />
+       
       </div>
     </div>
   );
@@ -160,8 +161,11 @@ function Menu() {
         Location="Russia"
       />
 
+
    
     </div>
+
+    
   );
 }
 
