@@ -71,7 +71,7 @@ function Menu() {
       <Company
         Datasend="20h ago . Part Time"
         NameJob="Haskell and PureScript Dev"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\coffeeroasters.svg"
         NameCompany="Bloger"
         Location="United States"
       />
@@ -79,7 +79,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\pomodoro.svg"
         NameCompany="Vector"
         Location="Russia"
       />
@@ -87,7 +87,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\officelite.svg"
         NameCompany="Vector"
         Location="Russia"
       />
@@ -95,7 +95,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\mastercraft.svg"
         NameCompany="Vector"
         Location="Russia"
       />
@@ -103,7 +103,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\maker.svg"
         NameCompany="Vector"
         Location="Russia"
       />
@@ -111,7 +111,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\crowdfund.svg"
         NameCompany="Vector"
         Location="Russia"
       />
@@ -119,7 +119,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\creative.svg"
         NameCompany="Vector"
         Location="Russia"
       />
@@ -127,7 +127,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\coffeeroasters.svg"
         NameCompany="Vector"
         Location="Russia"
       />
@@ -135,7 +135,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\blogr.svg"
         NameCompany="Vector"
         Location="Russia"
       />
@@ -143,7 +143,7 @@ function Menu() {
       <Company
         Datasend="1d ago . Part Time"
         NameJob="Midlevel Back End Enginner"
-        photoName="src/assets/images/scoot.svg"
+        photoName="src\assets\images\pod.svg"
         NameCompany="Vector"
         Location="Russia"
       />
