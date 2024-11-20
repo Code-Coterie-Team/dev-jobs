@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Search from "./components/Search";
-
+import './index.css';
 const pizzaData = [
   {
     Name: "Pizza 1",
@@ -165,15 +165,15 @@ function Company(props) {
   return (
    <>
   
-    <div className="w-full sm:w-1/2 md:w-1/4  m-3 flex flex-col items-center border border-white rounded-lg bg-gray-800 p-5">
+    <div className="w-full sm:w-1/2 md:w-1/4  m-3 flex flex-col items-center border border-white rounded-lg bg-white p-5">
       <img
         src={props.photoName}
         className="w-[50px] h-[50px] bg-orange-600 rounded-lg"
       />
-      <span className="text-white">{props.Datasend}</span>
-      <p className="text-white">{props.NameJob}</p>
-      <span className="text-white">{props.NameCompany}</span>
-      <p className="text-white">{props.Location}</p>
+      <span className="text-black">{props.Datasend}</span>
+      <p className="text-black">{props.NameJob}</p>
+      <span className="text-black">{props.NameCompany}</span>
+      <p className="text-black">{props.Location}</p>
     </div>
    
     </>
