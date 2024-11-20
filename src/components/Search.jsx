@@ -5,7 +5,7 @@ const Search = () => {
   return (
     <div className="flex justify-center -translate-y-1/2 flex-row">
       <div className="bg-white text-red-400 flex justify-center items-center gap-24 flex-row w-[80%] mx-[10%] h-14 rounded-md border-none">
-        <div className="flex justify-between items-center basis-1/2 m-2 p-2">
+        <div className="flex justify-between items-center basis-1/2 m-2 p-2 border-r-2 border-[#E2E6EA]">
           <img 
             src={search} 
             alt="Menu" 
@@ -18,7 +18,7 @@ const Search = () => {
           />
         </div>
 
-        <select className="basis-1/4">
+        <select className="basis-1/4 border-r-2 border-[#E2E6EA]">
           <option>Other option</option>
           <option>Some option</option>
         </select>
