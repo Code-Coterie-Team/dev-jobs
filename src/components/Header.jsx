@@ -8,7 +8,7 @@ const ThemeToggleButton = () => {
       <img className="w-full h-full border rounded-bl-full" src={patternSvg} alt="Background Pattern" />
       <div className="absolute left-0 right-0 flex justify-between items-center px-10">
         <span className="text-[30px] font-bold">devjobs</span>
-        <img src={mySvg} alt="Sun" className="h-8 w-8 filter brightness-0 invert" /> {/* تغییر رنگ به سفید */}
+        <img src={mySvg} alt="Sun" className="h-5 w-5 filter brightness-0 invert" /> {/* تغییر رنگ به سفید */}
       </div>
     </div>
   );
