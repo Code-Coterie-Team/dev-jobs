@@ -176,7 +176,7 @@ function Company(props) {
     <div className="w-full sm:w-1/2 md:w-1/4  m-3 flex flex-col items-center border border-white rounded-lg bg-white p-5">
       <img
         src={props.photoName}
-        className="w-[50px] h-[50px] bg-orange-600"
+        className="w-[50px] h-[50px]"
       />
       <span className="text-black">{props.Datasend}</span>
       <p className="text-black">{props.NameJob}</p>
